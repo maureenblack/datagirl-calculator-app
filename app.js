@@ -1,4 +1,6 @@
-let currentResult = 0;
-currentResult = (10 * 12)  + 5;
-let result_description = "10 * 12 + 5";
-outputresult(currentResult, result_description);
+let currentResult = 0
+function add(){
+    currentResult = currentResult + userInput.value;
+    outputResult(currentResult, '')
+}
+addBtn.addEventListener('click', add)
